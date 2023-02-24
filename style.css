@@ -1,0 +1,544 @@
+body{
+    font-family:"IBM Plex Sans";
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%; 
+    background-image: url(./starter-code/assets/bg-main-mobile.png);
+    background-position:top -55.733vw left -3.6vw;
+    background-repeat: no-repeat;
+}
+
+.equalize1 {
+    height: 8.533vw;
+    width: 38.958vw;
+    margin-top: 10.667vw ;
+    margin-left: 6.667vw;
+}
+.pattern{
+    height: 32.500vw;
+    width: 21.667vw;
+    position: absolute;
+    margin-top: -16vw;
+    margin-left:78.333vw;
+    display: none;
+}
+header{
+    width: 100%;
+}
+header h1{
+    width: 87.200vw;
+    height: 38.400vw; 
+    margin: 17.0vw 6.400vw 0 6.400vw;
+    font-size: 40px ;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left; 
+}
+header p{
+    width: 87.200vw;
+    height: 41.600vw; 
+    margin: 5.333vw 6.400vw 0 6.400vw;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+.bluecont{
+    position: relative;
+    height: 160vw;
+    width: 100%; 
+    border-radius: 3.200vw;
+    background: #191826;
+    margin-top: 44.267vw;
+}
+.bluecont img{
+    width: 74.667vw;
+    margin:0 12.800vw  0 12.533vw ;
+    position: absolute;
+}
+
+#phone img{
+    margin: -26.133vw 22.760vw 0 21.512vw ;
+    width: 55.725vw;
+    height: 114.667vw 
+}
+
+#orangecont{
+    width: 100%;
+    height: 145.600vw;
+    border-radius: 12px;
+    background: #FA7453;
+    position: relative;
+    margin-top: -56vw; 
+}
+.about h1{
+    margin: 0;
+    height: 10.667vw;
+    width: 80.533vw;
+    padding: 12.800vw 9.867vw 0 10.133vw;
+    color: #FCFAF9;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+}
+.about p{
+    margin:0;
+    height: 37.333vw;
+    width: 80.533vw;
+    padding: 3.200vw 9.867vw 0 9.600vw; 
+    color: #FCFAF9;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+.prise{
+    display: flex;
+}
+.prise h1{
+    margin: 0;
+    padding-left: 11.200vw ;
+    padding-top: 9.600vw ;
+    padding-right: 4.267vw;
+    color: #FCFAF9;
+    font-size: 17.333vw;
+    font-weight: 700;
+    line-height: 13.867vw;
+    text-align: left;
+    
+}
+.prise p{
+    margin: 0;
+    padding-right: 44.800vw ;
+    padding-top: 12vw;
+    color: #FCFAF9;
+    font-size: 5.333vw;
+    font-weight: 400;
+    line-height: 8.533vw;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+}
+.apple{
+    margin-left:11.200vw ;
+    margin-top: 8.533vw;
+    display: flex;
+    justify-content: space-between;
+    height: 16.267vw;
+    width: 78.933vw;
+    border-radius: 3.200vw;
+    background: #191826; 
+}
+.apple img{
+    height: 5.299vw;
+    width: 4.555vw;
+    padding: 5.600vw 3.200vw 5.333vw 20.533vw;
+}
+.apple p{
+    margin: 0;
+    height: 8.533vw;
+    width: 31.200vw;
+    color: #FCFAF9;
+    padding: 4vw 20.533vw 3.733vw 0;
+    font-weight: 700;
+    line-height: 8.533vw;
+}
+.android{
+    margin: 4.267vw 9.867vw 12.800vw 11.200vw;
+    height: 16.267vw;
+    width: 78.933vw;
+    border-radius: 3.200vw;
+    background: #FCFAF9;  
+    display: flex;
+    justify-content: space-between;
+}
+.android img{
+    height: 5.333vw;
+    width: 4.453vw;
+    padding: 5.867vw  2.080vw 5.067vw 15.733vw;
+}
+.android p{
+    height:5.408vw;
+    width: 41.333vw;
+    margin: 0;
+    padding: 4vw 15.333vw 3.733vw 0;
+    font-weight: 700;
+    line-height: 8.533vw;
+    letter-spacing: -0.18000000715255737px;
+    
+}
+footer{
+    width: 100%;
+    overflow: hidden;
+}
+.equalize2{
+    height: 8.533vw;
+    width: 38.958vw;
+    margin-top: 10.667vw ;
+    margin-left: 6.667vw;
+}
+footer p{
+    height: 28vw;
+    width: 87.200vw;
+    margin: 5.333vw 6.400vw 0 6.400vw;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+footer a{
+    height: 28vw;
+    width: 87.200vw;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left; 
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 26.667vw;
+    margin: 17.067vw 66.933vw 21.333vw 6.400vw;
+}
+.apple:hover{
+    cursor: pointer;
+    background: #66E2DC;
+}
+.android:hover{
+    cursor: pointer;
+    background: #FFB964;
+}
+svg:hover{
+    cursor: pointer;
+    color: #FA7453;
+} 
+
+@media  screen and (min-width:768px) {
+    body{
+        background-image: url(./starter-code/assets/bg-main-tablet.png);
+        background-position: bottom 166.267vw right -20vw;;
+        background-repeat: no-repeat;
+    }
+    
+    .pattern {
+        display: inline;
+        width: 31vw;
+        height: 52.083vw;
+        overflow: hidden;
+        margin-top: -3.833vw;
+        margin-left: 22.922vw;
+    }  
+    .pattern img{
+        width: 34.723vw;
+        height: 52.083vw;
+    } 
+    header h1{
+        height: 25vw;
+        width: 67.708vw;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: -0.7272727489471436px;
+        text-align: left;
+    }
+    header p{
+        height: 14.583vw;
+        width: 66.927vw;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        
+    }
+    #phone img{ 
+        height: 72.396vw;
+        width: 35.183vw;
+        margin-left:8.333vw ; 
+        margin-top: -15vw;
+    }
+
+    .bluecont{
+        height: 78.125vw;
+        width: 90.625vw;
+        margin-left:4.297vw;
+        margin-right:5.078vw ;
+    }
+    .bluecont img{
+        margin-left:30vw ;
+        margin-right: 24.349vw;
+        width:36.458vw;
+    }
+    #orangecont{
+        height: 71.094vw;
+        width: 51.953vw;
+        margin-left: 35.417vw;
+    }
+    .about h1{
+        height: 5.208vw;
+        width: 39.323vw;
+        padding-left:  6.250vw;
+        padding-top: 6.250vw;
+    }
+    .about p{
+        height: 18.229vw;
+        width: 39.323vw;
+        padding-top:  1.563vw;
+        padding-left: 6.250vw;
+    }
+    .prise h1{
+        height: 6.771vw;
+        width: 10.286vw;
+        padding:4.688vw  2.083vw 0 7.031vw;
+        font-size: 65px;
+        line-height: 52px;
+        
+    }
+    .prise p{
+        height: 4.167vw;
+        width: 9.115vw;
+        padding: 5.859vw 23.438vw 0 0;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: -0.20000000298023224px;
+    }
+    .apple{
+        height: 7.943vw;
+        width: 38.542vw;
+        margin-left: 7.031vw;
+        margin-top :4.167vw;
+        border-radius: 1.563vw;
+    }
+    .apple img{
+        width: 2.224vw;
+        height: 2.083vw;
+        padding: 2.734vw 1.042vw 2.604vw 10.026vw;
+    }
+    .apple p{
+        height: 4.167vw;
+        width: 15.234vw;
+        padding: 1.953vw 10vw 1.823vw 0;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.18000000715255737px;
+    }
+    .android {
+        height: 7.943vw;
+        width: 38.542vw;
+        margin-left: 7.031vw;
+        margin-top :4.167vw;
+        border-radius: 1.563vw;
+    }
+    .android img{
+        height: 2.604vw;
+        width: 2.174vw;
+        padding: 2.865vw 1.451vw 2.474vw 8.117vw;    
+    }
+    .android p{
+        height: 4.167vw;
+        width: 20.182vw;
+        padding:1.953vw 7.487vw 1.823vw 0;
+       
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.18000000715255737px;
+    }
+    footer{
+        margin: 0;
+        height: 41.016vw;
+    }
+    .equalize2{
+        height: 4.167vw;
+        width:19.022vw;
+        margin-left: 4.447vw;
+        margin-top:11.328vw;
+    }
+    footer p{
+        height: 10.286vw;
+        width: 42.656vw;
+        margin-left: 4.297vw;
+        margin-top:4.167vw ;
+    }
+    footer a{
+        width: 50.2vw;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 0px;
+        text-align: left;
+        justify-content: center;
+    }
+
+    .icons{
+        margin-top: -6vw;
+        margin-left: 70.4vw;
+        
+    }
+}
+@media screen and (min-width:1440px) {
+    body{
+        background-image: url(./starter-code/assets/bg-main-desktop.png);
+        background-position: top -13vw right -12vw;
+       
+    }
+    .equalize1{
+        width: 10.145vw;
+        height: 2.222vw;
+        margin-top:4.305vw;
+        margin-left: 11.528vw;
+       
+    }
+    .pattern{
+        height: 32.500vw;
+        width: 21.667vw;
+        margin-left: 56.597vw;
+        margin-top: -2.833vw
+
+    }
+    .pattern img{
+        height: 32.500vw;
+        width: 21.667vw;
+      
+    }
+    header h1{
+        height: 12.222vw;
+        width: 70.486vw;
+        margin: 8.819vw 18.056vw 0 11.458vw;
+        font-size: 88px;
+        font-weight: 700;
+        line-height: 88px;
+        letter-spacing: -1px;
+        text-align: left; 
+    }
+    header p{
+        height: 7.083vw;
+        width: 57.292vw;
+        margin:  2.778vw  31.285vw 0 11.424vw;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 34px;
+        text-align: left;
+        
+    }
+    .bluecont{
+        height: 41.667vw;
+        width: 77.083vw;
+        border-radius: 0.833vw;
+        margin: 22.292vw 11.458vw 0 11.458vw;
+        
+    }
+    .bluecont img{
+        margin-top: -2vw;
+        margin-left: 24vw;
+        width: 20.458vw;
+
+    }
+    #phone img{
+        height: 43.611vw;
+        width: 20.764vw;
+        
+    }
+    #orangecont{
+        height: 43.403vw;
+        width: 30.972vw;
+        border-radius: 0.833vw;
+        margin-top: -35vw;
+        margin-left:50.972vw;
+    }
+    .about h1{
+        height: 3.611vw;
+        width: 23.125vw;
+        padding: 4.028vw 4.097vw 0 3.750vw;
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .about p{
+        height: 11.806vw;
+        width: 23.125vw;
+        padding:1.528vw 4.097vw 0  3.750vw;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 34px;
+        
+    
+        
+
+    }
+    .prise h1{
+        width: 5.486vw;
+        height: 3.611vw;
+        padding: 2.708vw 1.111vw 0 3.750vw;
+    }
+    .prise p{
+        height: 2.222vw;
+        width: 4.861vw;
+        padding: 3.859vw 15.438vw 0 0;
+    }
+    .apple{
+        height: 4.236vw;
+        width: 23.125vw;
+        border-radius: 0.833vw;
+        margin-left: 3.750vw;
+        margin-top: 3.958vw;
+        
+    }
+    .apple img{
+        width: 1.181vw;
+        height:1.389vw;
+        padding: 1.458vw 0.550vw 1.389vw 6.667vw;
+    }
+    .apple p{
+        height: 2.222vw;
+        width: 8.125vw;
+        padding:1.042vw 6.597vw 0.972vw 0;
+        text-align: center;
+        
+    }
+    .android{
+        height: 4.236vw;
+        width: 23.125vw;
+        border-radius: 0.833vw;
+        margin-left: 3.750vw;
+        margin-top: 1.111vw;
+        
+    }
+    .android img{
+        width: 1.160vw;
+        height: 1.389vw;
+        padding:1.528vw 0.542vw 1.319vw 5.347vw;
+
+    }
+    .android p{
+        height: 2.222vw;
+        width: 10.764vw;
+        padding: 1.042vw 5.313vw 0.972vw 0;
+        text-align: center;
+    }
+    footer{
+         height: 17.847vw;
+         display: flex;
+         justify-content: space-around;
+    }
+    .equalize2{
+        margin-left: 4.538vw;
+        margin-top: 6.042vw;
+        
+    }
+    footer p{
+        height: 5.486vw;
+        width: 25.417vw;
+        font-size: 15px;
+        margin-left: -58px;
+        margin-top: 6.042vw;
+       
+    }
+    .icons{
+        width: 6.944vw;
+        margin: 8.056vw 7.458vw 8.507vw 115px;
+        justify-content: space-between; 
+    }
+}
+
+
