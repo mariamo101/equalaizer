@@ -26,8 +26,8 @@ This is a responsive site created by myself.
 
 ### Screenshot
 
-![ScreenShot](<img width="527" alt="Screenshot 2023-02-26 at 02 49 25" src="https://user-images.githubusercontent.com/117212859/221387941-0ae59d22-f30e-4a3d-a524-15eaa5083adb.png">
-)
+<img width="527" alt="Screenshot 2023-02-26 at 02 49 25" src="https://user-images.githubusercontent.com/117212859/221387941-0ae59d22-f30e-4a3d-a524-15eaa5083adb.png" />
+
 
 
 ### Links
