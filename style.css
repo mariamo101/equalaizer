@@ -178,7 +178,6 @@ footer{
     margin-left: 6.667vw;
 }
 footer p{
-    height: 28vw;
     width: 87.200vw;
     margin: 5.333vw 6.400vw 0 6.400vw;
     font-size: 16px;
@@ -187,7 +186,6 @@ footer p{
     text-align: left;
 }
 footer a{
-    height: 28vw;
     width: 87.200vw;
     display: flex;
     font-size: 16px;
@@ -366,9 +364,7 @@ svg:hover{
         width: 50.2vw;
         font-size: 16px;
         font-weight: 700;
-        line-height: 0px;
         text-align: left;
-        justify-content: center;
     }
 
     .icons{
@@ -460,10 +456,7 @@ svg:hover{
         padding:1.528vw 4.097vw 0  3.750vw;
         font-size: 20px;
         font-weight: 400;
-        line-height: 34px;
-        
-    
-        
+        line-height: 34px;   
 
     }
     .prise h1{
