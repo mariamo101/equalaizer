@@ -31,7 +31,7 @@ This is a responsive site created by myself.
 
 
 ### Links
-- Live Site URL: [live site URL here](https://cheery-otter-8b595a.netlify.app/)
+- Live Site URL: [live site URL here](https://equalaizer-mm.netlify.app/)
 
 ## My process
  
